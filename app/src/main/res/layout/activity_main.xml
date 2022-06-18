@@ -22,7 +22,7 @@
             android:padding="5dp"
             android:text="Data Pemain Real Madrid"
             android:textAlignment="center"
-            android:textSize="19dp"
+            android:textSize="19sp"
             android:textColor="#0C0C0C"
             android:layout_gravity="center_horizontal"
             />
@@ -31,7 +31,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         tools:listitem="@layout/list_item_pemain"
         android:layout_marginTop="40dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
